@@ -10,21 +10,47 @@ body {
 h1 {
     text-align: center;
 }
+ 
+.column { 
+    display: flex ; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+}
 
+.figure-image { 
+    display: flex ; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+}
 .navbar {
     text-align: center;
+    display: flex ; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
 }
 
 .hero {
     text-align: center;
+    display: flex ; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
 }
 
 .button-section {
     text-align-last: center;
 }
 
-img {
-    max-width: 100%;
+img { 
+    min-width: 70% ; 
+    max-width: 70%;
+    display: flex ; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
 }
 
 @media (max-width: 1200px) {
