@@ -1,4 +1,5 @@
 const API_URL = 'https://dog.ceo/api/breeds/image/random/5';
+
 const randomDogsElement = document.querySelector('.random-dogs');
 const loadingElement = document.querySelector('.loading');
 const goButton = document.querySelector('.go-button');
@@ -17,11 +18,12 @@ async function getRandomDogs() {
             <div class="card"> 
             <div class="card-image"> 
             <figure class="image"> 
-            <img src="${dogImage} alt=""> 
             </figure> 
             </div> 
             </div> 
             </div>     `;
+
+            //             <img src="${dogImage} alt=""> 
 
         const columnElement = document.createElement('div');
         columnElement.classList.add('column');
