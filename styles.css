@@ -24,12 +24,12 @@ h1 {
 }
 
 img {
-    width: 100%;
+    max-width: 100%;
 }
 
 @media (max-width: 1200px) {
     .images {
-        column-count: 2;
+        column-count: 3;
     }
 }
 
