@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css" />
+
+        <meta
+            name="viewport"
+            content="width-device-width"
+            ,
+            initial-scale="1"
+        />
+        <title> </title>
+    </head>
+    <body>
+        <nav
+            class="navbar is-dark"
+            role="navigation"
+            aria-label="main navigation"
+        >
+            <div class="navbar-brand">
+                <a class="navbar-item" href="/">🐶🐶</a>
+            </div>
+        </nav>
+        <main>
+            <section class="hero is-primary">
+                <div class="hero-body">
+                    <div class="container">
+                        <h1 class="title">
+                            Dogs!
+                        </h1>
+                        <h2 class="subtitle">
+                            Click go to see random dogs !!!
+                        </h2>
+                    </div>
+                </div>
+            </section>
+            <div class="button-section">
+                <button class="go-button button is-large is-success">
+                    GO!
+                </button>
+            </div>
+            <div class="loading">
+                <progress class="progress is-large is-info" max="100"
+                    >60%</progress
+                >
+            </div>
+            <div class="random-dogs columns"></div>
+        </main>
+
+        <script src="app.js"></script>
+    </body>
+</html>
