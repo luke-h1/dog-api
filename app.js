@@ -23,7 +23,6 @@ async function getRandomDogs() {
             </div> 
             </div>     `;
 
-            //             <img src="${dogImage} alt=""> 
 
         const columnElement = document.createElement('div');
         columnElement.classList.add('column');
