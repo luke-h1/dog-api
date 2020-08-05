@@ -1,9 +1,7 @@
 const API_URL = 'https://dog.ceo/api/breeds/image/random/5';
-
 const randomDogsElement = document.querySelector('.random-dogs');
 const loadingElement = document.querySelector('.loading');
-const goButton = document.querySelector('.go-button');
-
+const dogButton = document.querySelector('.dog-button');
 loadingElement.style.display = 'none';
 
 async function getRandomDogs() {
@@ -22,7 +20,6 @@ async function getRandomDogs() {
             </div> 
             </div> 
             </div>     `;
-
 
         const columnElement = document.createElement('div');
         columnElement.classList.add('column');
@@ -48,4 +45,4 @@ async function getRandomDogs() {
     loadingElement.style.display = 'none';
 }
 
-goButton.addEventListener('click', getRandomDogs);
+dogButton.addEventListener('click', getRandomDogs);
